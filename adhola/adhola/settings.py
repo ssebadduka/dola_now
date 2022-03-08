@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lwmicxl+l&zt@84!sx0yg*x1l)rk1sjezolq7w_po%45i5!k7s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['adhola.favourministries.org','*']
 
@@ -123,7 +123,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static', '/var/www/static/')
+    os.path.join(BASE_DIR, 'static')
 ]
 
 # STATIC_URL = '/static/'
